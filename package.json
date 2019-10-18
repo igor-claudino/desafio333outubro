@@ -1,0 +1,19 @@
+{
+  "name": "desafio333outubro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/igor-claudino/desafio333outubro.git",
+  "author": "Igor Claudino de França Costa <igor.claudino.ic@gmail.com>",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "url-preview": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
