@@ -8,6 +8,6 @@ app.use(express.json());
 
 app.use(require("./routes"));
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`URL Preview running on port ${PORT}`);
 });
